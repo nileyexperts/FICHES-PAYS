@@ -1,0 +1,33 @@
+# Fichiers sensibles
+.env
+*.env
+
+# Données sensibles
+/data/users.json
+/data/cache.json
+
+# Fichiers compilés Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers temporaires et logs
+*.log
+*.tmp
+*.swp
+
+# Dossiers virtuels
+venv/
+.env/
+
+# Fichiers générés par Streamlit
+.streamlit/
+
+# Fichiers exportés
+/data/export_regulations.pdf
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
