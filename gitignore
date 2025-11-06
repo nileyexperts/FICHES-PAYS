@@ -1,0 +1,34 @@
+# Ignorer les fichiers sensibles et temporaires
+.env
+*.env
+
+# Ignorer les données sensibles
+/data/users.json
+/data/cache.json
+
+# Ignorer les fichiers compilés Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les fichiers temporaires
+*.tmp
+*.swp
+
+# Ignorer les dossiers virtuels
+venv/
+.env/
+
+# Ignorer les fichiers générés par Streamlit
+.streamlit/
+
+# Ignorer les fichiers exportés
+/data/export_regulations.pdf
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
